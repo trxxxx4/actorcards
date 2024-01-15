@@ -1,0 +1,70 @@
+.body {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393E46;
+}
+
+#input {
+    border-radius: 6px;
+    color: azure;
+    background-color: #222831;
+    font-size: 14px;
+}
+*{
+    font-family: 'Tektur';
+}
+h3 {
+    margin: 0px;
+    color: azure;
+}
+
+p {
+    margin: 0px;
+    color: azure;
+}
+
+#addButton{
+    border-radius: 6px;
+    color: azure;background-color: #222831;
+    font-size: 14px;
+}
+
+
+.main_container {
+    width: 1161px;
+    background-color: #00ADB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    min-height: 777px;
+    border-radius: 15px;
+    padding: 10px 0px;
+}
+
+#heroesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 777px;
+    flex-wrap: wrap;
+    gap: 14px;
+
+}
+
+.character {
+    display: flex;
+    border-radius: 8px;
+    background-color: #222831;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    padding: 6px 8px;
+}
